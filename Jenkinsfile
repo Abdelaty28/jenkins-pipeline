@@ -5,13 +5,13 @@ pipeline {
       parallel {
         stage('first ') {
           steps {
-            echo 'hello 1'
+            echo 'hello world 1'
           }
         }
 
         stage('second') {
           steps {
-            echo 'hello 2'
+            echo 'hello world 2'
           }
         }
 
@@ -20,7 +20,7 @@ pipeline {
 
     stage('third') {
       steps {
-        echo 'hello 3'
+        echo 'hello world 3'
       }
     }
 
